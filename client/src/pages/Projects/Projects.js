@@ -1,6 +1,7 @@
 import React from "react";
 import "./Projects.css";
 import Spin from "react-reveal/Spin";
+import foodimg from "../../assets/images/picpro.png"
 const Projects = () => {
   return (
     <>
@@ -19,7 +20,7 @@ const Projects = () => {
         {/* card design */}
         <div className="row" id="ads">
           <Spin>
-            <div className="col-md-4">
+            <div className="col-md-6">
               <div className="card rounded">
                 <div className="card-image">
                   <span className="card-notify-badge">Full stack</span>
@@ -37,46 +38,48 @@ const Projects = () => {
                 <div className="card-body text-center">
                   <div className="ad-title m-auto">
                     <h6 className="text-uppercase">
-                      Techinfoyt Shopping Website
+                      Ecommerce Website
                     </h6>
                   </div>
                   <a
                     className="ad-btn"
-                    href="https://github.com/techinfo-youtube/ecommerce-app-2023"
+                    href="https://github.com/amit78kum/E-commerce-Website"
                   >
                     View
                   </a>
                 </div>
               </div>
             </div>
-            <div className="col-md-4">
+            <div className="col-md-6">
               <div className="card rounded">
                 <div className="card-image">
-                  <span className="card-notify-badge">Mobile App</span>
-                  <img
+                  <span className="card-notify-badge">Full Stack</span>
+                  {/* <img
                     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR356D-1YtSagN4-_ZdjZ5H9o6PKUO4h12dvw&usqp=CAU"
                     alt="project2"
-                  />
+                  /> */}
+                  <img src={foodimg} alt="project2"/>
                 </div>
                 <div className="card-image-overly m-auto mt-3">
-                  <span className="card-detail-badge">React Native</span>
-
-                  <span className="card-detail-badge">IOS / ANDROID</span>
+                <span className="card-detail-badge">Node</span>
+                  <span className="card-detail-badge">Express</span>
+                  <span className="card-detail-badge">react</span>
+                  <span className="card-detail-badge">Mongodb</span>
                 </div>
                 <div className="card-body text-center">
                   <div className="ad-title m-auto">
-                    <h5 className="text-uppercase">Techinfoyt Coding App</h5>
+                    <h5 className="text-uppercase">Mern Food Ordering Website</h5>
                   </div>
                   <a
                     className="ad-btn"
-                    href="https://github.com/techinfo-youtube/ecommerce-app-2023"
+                    href="https://github.com/amit78kum/Food-Ordering-Website"
                   >
                     View
                   </a>
                 </div>
               </div>
             </div>
-            <div className="col-md-4">
+            {/* <div className="col-md-4">
               <div className="card rounded">
                 <div className="card-image">
                   <span className="card-notify-badge">Backend</span>
@@ -100,7 +103,7 @@ const Projects = () => {
                   </a>
                 </div>
               </div>
-            </div>
+            </div> */}
           </Spin>
         </div>
       </div>

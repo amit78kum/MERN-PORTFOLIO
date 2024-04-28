@@ -1,7 +1,7 @@
 import React from "react";
 import { useTheme } from "../../context/ThemeContext";
 import Typewriter from "typewriter-effect";
-import Resume from "../../assets/docs/resume.txt";
+import Resume from "../../assets/docs/2104025_Amit Kumar_ECE.pdf";
 import { BsFillMoonStarsFill, BsFillSunFill } from "react-icons/bs";
 import "./home.css";
 import Fade from "react-reveal/Fade";
@@ -29,9 +29,11 @@ const Home = () => {
               <Typewriter
                 options={{
                   strings: [
+                    "DSA Enthusiast",
                     "FullStack Developer!",
                     "Mern Stack Developer!",
                     "React native developer!",
+                    
                   ],
                   autoStart: true,
                   loop: true,

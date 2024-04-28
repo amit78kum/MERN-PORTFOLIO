@@ -15,31 +15,53 @@ const Education = () => {
         </h2>
         <hr />
         <VerticalTimeline>
-          <VerticalTimelineElement
+        <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentStyle={{ background: "white", color: "black" }}
             contentArrowStyle={{ borderRight: "7px solid  white" }}
-            date="2020 - 2022"
+            date="2021-2025"
             iconStyle={{ background: "#138781", color: "#fff" }}
             icon={<MdSchool />}
           >
-            <h3 className="vertical-timeline-element-title">MCA</h3>
+            <h3 className="vertical-timeline-element-title">Btech In Electronics And Communication Engineering</h3>
             <h4 className="vertical-timeline-element-subtitle">
-              IIT Mumbai, IN
+              NIT Patna,Bihar
             </h4>
+            <h5 className="vertical-timeline-element-subtitle">
+              Marks:8.42 C.G.P.A (Till 5th Sem)
+            </h5>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentStyle={{ background: "white", color: "black" }}
             contentArrowStyle={{ borderRight: "7px solid  white" }}
-            date="2017 - 2020"
+            date="2020"
             iconStyle={{ background: "#138781", color: "#fff" }}
             icon={<MdSchool />}
           >
-            <h3 className="vertical-timeline-element-title">BCA</h3>
+            <h3 className="vertical-timeline-element-title">12th</h3>
             <h4 className="vertical-timeline-element-subtitle">
-              IIT Mumbai, IN
+              Hellens Public School Sitamarhi 
             </h4>
+            <h5 className="vertical-timeline-element-subtitle">
+              Marks:92.8%
+            </h5>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: "white", color: "black" }}
+            contentArrowStyle={{ borderRight: "7px solid  white" }}
+            date="2018"
+            iconStyle={{ background: "#138781", color: "#fff" }}
+            icon={<MdSchool />}
+          >
+            <h3 className="vertical-timeline-element-title">10th</h3>
+            <h4 className="vertical-timeline-element-subtitle">
+              N.S.D.A.V Public School, Sitamarhi
+            </h4>
+            <h5 className="vertical-timeline-element-subtitle">
+              Marks:95.6%
+            </h5>
           </VerticalTimelineElement>
         </VerticalTimeline>
       </div>
